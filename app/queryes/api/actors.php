@@ -64,9 +64,7 @@ class Actors {
 
 	private function post(){
 
-				/*
-		* Запрос на удаление определнного актера по его id
-		*/
+
 		$actor = $_POST['actor'];
 
 		if ($actor){
@@ -85,9 +83,7 @@ class Actors {
 
 	private function delete(){
 
-		/*
-		* Запрос на удаление определнного актера по его id
-		*/
+
 
 		if ($this->param[0]['key'] === 'id' && $this->param[0]['val']){
 			$val = $this->param[0]['val'];

@@ -63,9 +63,7 @@ class Genres {
 
 	private function post(){
 
-				/*
-		* Запрос на удаление определнного актера по его id
-		*/
+
 		$genre = $_POST['genre'];
 
 		if ($genre){
@@ -83,9 +81,7 @@ class Genres {
 
 	private function delete(){
 
-		/*
-		* Запрос на удаление определнного актера по его id
-		*/
+
 
 		if ($this->param[0]['key'] === 'id' && $this->param[0]['val']){
 			$val = $this->param[0]['val'];
